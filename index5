@@ -1,0 +1,12 @@
+<ul id='item'>
+<li>Hello World</li>
+<li>item1</li>
+<li>item2 </li>
+<li>item3</li>
+<li>item4</li>
+</ul>
+parentnode=doc.getelementbyId('items')
+hellowworldlistelement=<li>Hello world)
+parentNode.appendFirstChild(helloworldlielement)
+parentNode.innerhtml='<li>item 1</li><li>item2</li><li> item3</li><li>item4</li>'
+parentNode.innerhtml='<li>Hello World</li>'+parentNode.innerhtml
